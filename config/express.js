@@ -3,7 +3,7 @@ const compression = require('compression');
 const methodOverride = require('method-override');
 var cors = require('cors');
 
-var whitelist = ['http://localhost:3006','http://sph.elogdiary.club']
+var whitelist = ['http://localhost:3006','http://sph.elogdiary.club','https://ec2-13-208-168-167.ap-northeast-3.compute.amazonaws.com']
 
 var corsOptions = {
   origin: function(origin, callback){
