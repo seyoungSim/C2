@@ -3,9 +3,9 @@ const {logger} = require('./winston');
 
 // TODO: 본인의 DB 계정 입력
 const pool = mysql.createPool({
-    host: 'popi.cgiwbgndhthd.ap-northeast-3.rds.amazonaws.com',
-    user: 'C2',
-    port: '3006',
+    host: 'popi2.cgiwbgndhthd.ap-northeast-3.rds.amazonaws.com',
+    user: 'c2',
+    port: '3306',
     password: 'fighting',
     database: 'C2'
 });
