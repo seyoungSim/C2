@@ -5,7 +5,7 @@ const {logger} = require('./winston');
 const pool = mysql.createPool({
     host: 'popi2.cgiwbgndhthd.ap-northeast-3.rds.amazonaws.com',
     user: 'c2',
-    port: '3306',
+    port: '3006',
     password: 'fighting',
     database: 'C2'
 });
